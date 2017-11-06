@@ -1,0 +1,6 @@
+url=https://www.google.com
+browser=firefox
+geckoDriverpath=D:\\Selenium\\gecko\\geckodriver.exe
+waitTime=60
+chromeDriverpath=ggg
+internetExploredriverpath=hghgh
