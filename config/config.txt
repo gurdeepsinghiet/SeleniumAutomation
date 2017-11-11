@@ -4,3 +4,4 @@ geckoDriverpath=E:\\selenium\\geckodriver\\geckodriver.exe
 waitTime=60
 chromeDriverpath=ggg
 internetExploredriverpath=hghgh
+log4jproperty=./config/log4j.properties
