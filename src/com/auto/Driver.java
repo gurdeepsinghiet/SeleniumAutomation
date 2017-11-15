@@ -16,15 +16,15 @@ public class Driver {
 	
 	public WebDriver InitateDriver()
 	{
-		//System.setProperty("webdriver.gecko.driver","E:\\selenium\\geckodriver\\geckodriver.exe");
-		  //driver=new FirefoxDriver();
-		  System.setProperty("webdriver.chrome.driver","E:\\selenium\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.gecko.driver","E:\\selenium\\geckodriver\\geckodriver.exe");
+		  driver=new FirefoxDriver();
+		 // System.setProperty("webdriver.chrome.driver","E:\\selenium\\chromedriver\\chromedriver.exe");
 	       DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-          capabilities.setCapability("chrome.switches", Arrays.asList("--start-maximized"));
-          driver=new ChromeDriver();
-         // driver.manage().window().setSize(screenResolution);
-		  //driver.manage().window().maximize();
-		  //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+         // capabilities.setCapability("chrome.switches", Arrays.asList("--start-maximized"));
+          //driver=new FirefoxDriver();
+          //driver.manage().window().setSize(screenResolution);
+		  driver.manage().window().maximize();
+		  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		  return driver;
 
 	}
