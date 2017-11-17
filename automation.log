@@ -303,3 +303,192 @@
 2017-11-17 13:06:31 2017-11-17 13:06:31,553 [main] INFO  com.auto.Automation  - xpathTestSteps:
 2017-11-17 13:06:31 2017-11-17 13:06:31,553 [main] INFO  com.auto.Automation  - value:https://login.live.com
 2017-11-17 13:06:31 2017-11-17 13:06:31,553 [main] INFO  com.auto.Automation  - keywordTestSteps:url
+2017-11-17 22:34:02 2017-11-17 22:34:02,774 [main] INFO  com.auto.Automation  - TestSuit:1
+2017-11-17 22:34:02 2017-11-17 22:34:02,774 [main] INFO  com.auto.Automation  - TestSuit:LoginTestcases
+2017-11-17 22:34:02 2017-11-17 22:34:02,774 [main] INFO  com.auto.Automation  - TestSuit:Y
+2017-11-17 22:34:02 2017-11-17 22:34:02,820 [main] INFO  com.auto.Automation  - TestCases:1
+2017-11-17 22:34:02 2017-11-17 22:34:02,820 [main] INFO  com.auto.Automation  - TestCases:TC1
+2017-11-17 22:34:02 2017-11-17 22:34:02,820 [main] INFO  com.auto.Automation  - TestCases:Login with correct username and password
+2017-11-17 22:34:02 2017-11-17 22:34:02,820 [main] INFO  com.auto.Automation  - TestCases:Y
+2017-11-17 22:34:34 2017-11-17 22:34:34,212 [main] INFO  com.auto.Automation  - snoTestSteps:1
+2017-11-17 22:34:34 2017-11-17 22:34:34,212 [main] INFO  com.auto.Automation  - desTestSteps:Open url
+2017-11-17 22:34:34 2017-11-17 22:34:34,219 [main] INFO  com.auto.Automation  - xpathTestSteps:
+2017-11-17 22:34:34 2017-11-17 22:34:34,219 [main] INFO  com.auto.Automation  - value:https://login.live.com
+2017-11-17 22:34:34 2017-11-17 22:34:34,219 [main] INFO  com.auto.Automation  - keywordTestSteps:url
+2017-11-17 22:34:39 2017-11-17 22:34:39,790 [main] INFO  com.auto.CommonFuntionsLib  - Url is opened sucessfully
+2017-11-17 22:34:39 2017-11-17 22:34:39,790 [main] INFO  com.auto.Automation  - snoTestSteps:1
+2017-11-17 22:34:39 2017-11-17 22:34:39,790 [main] INFO  com.auto.Automation  - desTestSteps:Enter correct Username
+2017-11-17 22:34:39 2017-11-17 22:34:39,792 [main] INFO  com.auto.Automation  - xpathTestSteps://input[@id='i0116']
+2017-11-17 22:34:39 2017-11-17 22:34:39,792 [main] INFO  com.auto.Automation  - value:Gurdeepsinghiet@gmail.com
+2017-11-17 22:34:39 2017-11-17 22:34:39,792 [main] INFO  com.auto.Automation  - keywordTestSteps:input
+2017-11-17 22:34:41 2017-11-17 22:34:41,210 [main] INFO  com.auto.CommonFuntionsLib  - Input is performed sucessfully
+2017-11-17 22:34:41 2017-11-17 22:34:41,219 [main] INFO  com.auto.Automation  - snoTestSteps:2
+2017-11-17 22:34:41 2017-11-17 22:34:41,219 [main] INFO  com.auto.Automation  - desTestSteps:Sleep 
+2017-11-17 22:34:41 2017-11-17 22:34:41,219 [main] INFO  com.auto.Automation  - xpathTestSteps:
+2017-11-17 22:34:41 2017-11-17 22:34:41,219 [main] INFO  com.auto.Automation  - value:10
+2017-11-17 22:34:41 2017-11-17 22:34:41,219 [main] INFO  com.auto.Automation  - keywordTestSteps:sleep
+2017-11-17 22:34:46 2017-11-17 22:34:46,220 [main] INFO  com.auto.CommonFuntionsLib  - sleep is done sucessfully
+2017-11-17 22:34:46 2017-11-17 22:34:46,221 [main] INFO  com.auto.Automation  - snoTestSteps:2
+2017-11-17 22:34:46 2017-11-17 22:34:46,221 [main] INFO  com.auto.Automation  - desTestSteps:Click on Next Button
+2017-11-17 22:34:46 2017-11-17 22:34:46,222 [main] INFO  com.auto.Automation  - xpathTestSteps://input[@id='idSIButton9']
+2017-11-17 22:34:46 2017-11-17 22:34:46,223 [main] INFO  com.auto.Automation  - value:
+2017-11-17 22:34:46 2017-11-17 22:34:46,223 [main] INFO  com.auto.Automation  - keywordTestSteps:click
+2017-11-17 22:34:46 2017-11-17 22:34:46,535 [main] INFO  com.auto.CommonFuntionsLib  - Click is performed sucessfully
+2017-11-17 22:34:46 2017-11-17 22:34:46,535 [main] INFO  com.auto.Automation  - snoTestSteps:2
+2017-11-17 22:34:46 2017-11-17 22:34:46,535 [main] INFO  com.auto.Automation  - desTestSteps:Sllep 
+2017-11-17 22:34:46 2017-11-17 22:34:46,535 [main] INFO  com.auto.Automation  - xpathTestSteps:
+2017-11-17 22:34:46 2017-11-17 22:34:46,535 [main] INFO  com.auto.Automation  - value:10
+2017-11-17 22:34:46 2017-11-17 22:34:46,535 [main] INFO  com.auto.Automation  - keywordTestSteps:sleep
+2017-11-17 22:34:51 2017-11-17 22:34:51,539 [main] INFO  com.auto.CommonFuntionsLib  - sleep is done sucessfully
+2017-11-17 22:34:51 2017-11-17 22:34:51,539 [main] INFO  com.auto.Automation  - snoTestSteps:3
+2017-11-17 22:34:51 2017-11-17 22:34:51,539 [main] INFO  com.auto.Automation  - desTestSteps:Enter incorrect Password
+2017-11-17 22:34:51 2017-11-17 22:34:51,539 [main] INFO  com.auto.Automation  - xpathTestSteps://input[@id='i0118']
+2017-11-17 22:34:51 2017-11-17 22:34:51,539 [main] INFO  com.auto.Automation  - value:#dhm123
+2017-11-17 22:34:51 2017-11-17 22:34:51,539 [main] INFO  com.auto.Automation  - keywordTestSteps:input
+2017-11-17 22:34:51 2017-11-17 22:34:51,591 [main] INFO  com.auto.CommonFuntionsLib  - Input is performed sucessfully
+2017-11-17 22:34:51 2017-11-17 22:34:51,591 [main] INFO  com.auto.Automation  - snoTestSteps:2
+2017-11-17 22:34:51 2017-11-17 22:34:51,591 [main] INFO  com.auto.Automation  - desTestSteps:Sleep 
+2017-11-17 22:34:51 2017-11-17 22:34:51,591 [main] INFO  com.auto.Automation  - xpathTestSteps:
+2017-11-17 22:34:51 2017-11-17 22:34:51,591 [main] INFO  com.auto.Automation  - value:10
+2017-11-17 22:34:51 2017-11-17 22:34:51,591 [main] INFO  com.auto.Automation  - keywordTestSteps:sleep
+2017-11-17 22:34:56 2017-11-17 22:34:56,592 [main] INFO  com.auto.CommonFuntionsLib  - sleep is done sucessfully
+2017-11-17 22:34:56 2017-11-17 22:34:56,592 [main] INFO  com.auto.Automation  - snoTestSteps:5
+2017-11-17 22:34:56 2017-11-17 22:34:56,593 [main] INFO  com.auto.Automation  - desTestSteps:Click Sign in Button
+2017-11-17 22:34:56 2017-11-17 22:34:56,593 [main] INFO  com.auto.Automation  - xpathTestSteps://input[@id='idSIButton9']
+2017-11-17 22:34:56 2017-11-17 22:34:56,594 [main] INFO  com.auto.Automation  - value:
+2017-11-17 22:34:56 2017-11-17 22:34:56,594 [main] INFO  com.auto.Automation  - keywordTestSteps:click
+2017-11-17 22:35:00 2017-11-17 22:35:00,206 [main] INFO  com.auto.CommonFuntionsLib  - Click is performed sucessfully
+2017-11-17 22:35:00 2017-11-17 22:35:00,213 [main] INFO  com.auto.Automation  - snoTestSteps:2
+2017-11-17 22:35:00 2017-11-17 22:35:00,213 [main] INFO  com.auto.Automation  - desTestSteps:Sleep 
+2017-11-17 22:35:00 2017-11-17 22:35:00,213 [main] INFO  com.auto.Automation  - xpathTestSteps:
+2017-11-17 22:35:00 2017-11-17 22:35:00,213 [main] INFO  com.auto.Automation  - value:10
+2017-11-17 22:35:00 2017-11-17 22:35:00,213 [main] INFO  com.auto.Automation  - keywordTestSteps:sleep
+2017-11-17 22:35:05 2017-11-17 22:35:05,225 [main] INFO  com.auto.CommonFuntionsLib  - sleep is done sucessfully
+2017-11-17 22:35:05 2017-11-17 22:35:05,225 [main] INFO  com.auto.Automation  - snoTestSteps:2
+2017-11-17 22:35:05 2017-11-17 22:35:05,226 [main] INFO  com.auto.Automation  - desTestSteps:Verift the text
+2017-11-17 22:35:05 2017-11-17 22:35:05,226 [main] INFO  com.auto.Automation  - xpathTestSteps://div[@id='passwordError']
+2017-11-17 22:35:05 2017-11-17 22:35:05,226 [main] INFO  com.auto.Automation  - value:Sign is blocked
+2017-11-17 22:35:05 2017-11-17 22:35:05,227 [main] INFO  com.auto.Automation  - keywordTestSteps:VerifyText
+2017-11-17 22:35:05 2017-11-17 22:35:05,368 [main] INFO  com.auto.CommonFuntionsLib  - verify text failed
+2017-11-17 22:35:05 2017-11-17 22:35:05,384 [main] INFO  com.auto.Automation  - snoTestSteps:3
+2017-11-17 22:35:05 2017-11-17 22:35:05,384 [main] INFO  com.auto.Automation  - desTestSteps:Close Browser
+2017-11-17 22:35:05 2017-11-17 22:35:05,384 [main] INFO  com.auto.Automation  - xpathTestSteps:
+2017-11-17 22:35:05 2017-11-17 22:35:05,384 [main] INFO  com.auto.Automation  - value:
+2017-11-17 22:35:05 2017-11-17 22:35:05,384 [main] INFO  com.auto.Automation  - keywordTestSteps:CloseBrowser
+2017-11-17 22:35:05 2017-11-17 22:35:05,524 [main] INFO  com.auto.CommonFuntionsLib  - Browser is closed sucessfully
+2017-11-17 22:35:05 2017-11-17 22:35:05,524 [main] INFO  com.auto.Automation  - TestCases:2
+2017-11-17 22:35:05 2017-11-17 22:35:05,524 [main] INFO  com.auto.Automation  - TestCases:TC2
+2017-11-17 22:35:05 2017-11-17 22:35:05,524 [main] INFO  com.auto.Automation  - TestCases:Login with incorrect username and password
+2017-11-17 22:35:05 2017-11-17 22:35:05,524 [main] INFO  com.auto.Automation  - TestCases:Y
+2017-11-17 22:35:12 2017-11-17 22:35:12,271 [main] INFO  com.auto.Automation  - snoTestSteps:1
+2017-11-17 22:35:12 2017-11-17 22:35:12,271 [main] INFO  com.auto.Automation  - desTestSteps:Open url
+2017-11-17 22:35:12 2017-11-17 22:35:12,271 [main] INFO  com.auto.Automation  - xpathTestSteps:
+2017-11-17 22:35:12 2017-11-17 22:35:12,271 [main] INFO  com.auto.Automation  - value:https://login.live.com
+2017-11-17 22:35:12 2017-11-17 22:35:12,271 [main] INFO  com.auto.Automation  - keywordTestSteps:url
+2017-11-17 22:35:22 2017-11-17 22:35:22,393 [main] INFO  com.auto.CommonFuntionsLib  - Url is opened sucessfully
+2017-11-17 22:35:22 2017-11-17 22:35:22,393 [main] INFO  com.auto.Automation  - snoTestSteps:2
+2017-11-17 22:35:22 2017-11-17 22:35:22,393 [main] INFO  com.auto.Automation  - desTestSteps:Sleep 
+2017-11-17 22:35:22 2017-11-17 22:35:22,406 [main] INFO  com.auto.Automation  - xpathTestSteps:
+2017-11-17 22:35:22 2017-11-17 22:35:22,406 [main] INFO  com.auto.Automation  - value:10
+2017-11-17 22:35:22 2017-11-17 22:35:22,406 [main] INFO  com.auto.Automation  - keywordTestSteps:sleep
+2017-11-17 22:35:27 2017-11-17 22:35:27,411 [main] INFO  com.auto.CommonFuntionsLib  - sleep is done sucessfully
+2017-11-17 22:35:27 2017-11-17 22:35:27,411 [main] INFO  com.auto.Automation  - snoTestSteps:1
+2017-11-17 22:35:27 2017-11-17 22:35:27,412 [main] INFO  com.auto.Automation  - desTestSteps:Enter incorrect Username
+2017-11-17 22:35:27 2017-11-17 22:35:27,412 [main] INFO  com.auto.Automation  - xpathTestSteps://input[@id='i0116']
+2017-11-17 22:35:27 2017-11-17 22:35:27,412 [main] INFO  com.auto.Automation  - value:jack25@hotmail.com
+2017-11-17 22:35:27 2017-11-17 22:35:27,413 [main] INFO  com.auto.Automation  - keywordTestSteps:input
+2017-11-17 22:35:27 2017-11-17 22:35:27,539 [main] INFO  com.auto.CommonFuntionsLib  - Input is performed sucessfully
+2017-11-17 22:35:27 2017-11-17 22:35:27,539 [main] INFO  com.auto.Automation  - snoTestSteps:2
+2017-11-17 22:35:27 2017-11-17 22:35:27,539 [main] INFO  com.auto.Automation  - desTestSteps:Click on Next Button
+2017-11-17 22:35:27 2017-11-17 22:35:27,539 [main] INFO  com.auto.Automation  - xpathTestSteps://input[@id='idSIButton9']
+2017-11-17 22:35:27 2017-11-17 22:35:27,539 [main] INFO  com.auto.Automation  - value:
+2017-11-17 22:35:27 2017-11-17 22:35:27,539 [main] INFO  com.auto.Automation  - keywordTestSteps:click
+2017-11-17 22:35:27 2017-11-17 22:35:27,820 [main] INFO  com.auto.CommonFuntionsLib  - Click is performed sucessfully
+2017-11-17 22:35:27 2017-11-17 22:35:27,820 [main] INFO  com.auto.Automation  - snoTestSteps:2
+2017-11-17 22:35:27 2017-11-17 22:35:27,820 [main] INFO  com.auto.Automation  - desTestSteps:Sleep 
+2017-11-17 22:35:27 2017-11-17 22:35:27,820 [main] INFO  com.auto.Automation  - xpathTestSteps:
+2017-11-17 22:35:27 2017-11-17 22:35:27,820 [main] INFO  com.auto.Automation  - value:10
+2017-11-17 22:35:27 2017-11-17 22:35:27,820 [main] INFO  com.auto.Automation  - keywordTestSteps:sleep
+2017-11-17 22:35:32 2017-11-17 22:35:32,821 [main] INFO  com.auto.CommonFuntionsLib  - sleep is done sucessfully
+2017-11-17 22:35:32 2017-11-17 22:35:32,821 [main] INFO  com.auto.Automation  - snoTestSteps:3
+2017-11-17 22:35:32 2017-11-17 22:35:32,821 [main] INFO  com.auto.Automation  - desTestSteps:Enter incorrect Password
+2017-11-17 22:35:32 2017-11-17 22:35:32,821 [main] INFO  com.auto.Automation  - xpathTestSteps://input[@id='i0118']
+2017-11-17 22:35:32 2017-11-17 22:35:32,821 [main] INFO  com.auto.Automation  - value:#dhm123
+2017-11-17 22:35:32 2017-11-17 22:35:32,822 [main] INFO  com.auto.Automation  - keywordTestSteps:input
+2017-11-17 22:35:32 2017-11-17 22:35:32,883 [main] INFO  com.auto.CommonFuntionsLib  - Input is performed sucessfully
+2017-11-17 22:35:32 2017-11-17 22:35:32,883 [main] INFO  com.auto.Automation  - snoTestSteps:2
+2017-11-17 22:35:32 2017-11-17 22:35:32,883 [main] INFO  com.auto.Automation  - desTestSteps:Sleep 
+2017-11-17 22:35:32 2017-11-17 22:35:32,883 [main] INFO  com.auto.Automation  - xpathTestSteps:
+2017-11-17 22:35:32 2017-11-17 22:35:32,883 [main] INFO  com.auto.Automation  - value:10
+2017-11-17 22:35:32 2017-11-17 22:35:32,884 [main] INFO  com.auto.Automation  - keywordTestSteps:sleep
+2017-11-17 22:35:37 2017-11-17 22:35:37,891 [main] INFO  com.auto.CommonFuntionsLib  - sleep is done sucessfully
+2017-11-17 22:35:37 2017-11-17 22:35:37,891 [main] INFO  com.auto.Automation  - snoTestSteps:3
+2017-11-17 22:35:37 2017-11-17 22:35:37,892 [main] INFO  com.auto.Automation  - desTestSteps:Close Browser
+2017-11-17 22:35:37 2017-11-17 22:35:37,892 [main] INFO  com.auto.Automation  - xpathTestSteps:
+2017-11-17 22:35:37 2017-11-17 22:35:37,892 [main] INFO  com.auto.Automation  - value:
+2017-11-17 22:35:37 2017-11-17 22:35:37,892 [main] INFO  com.auto.Automation  - keywordTestSteps:CloseBrowser
+2017-11-17 22:35:38 2017-11-17 22:35:38,020 [main] INFO  com.auto.CommonFuntionsLib  - Browser is closed sucessfully
+2017-11-17 22:35:38 2017-11-17 22:35:38,020 [main] INFO  com.auto.Automation  - TestCases:3
+2017-11-17 22:35:38 2017-11-17 22:35:38,020 [main] INFO  com.auto.Automation  - TestCases:TC3
+2017-11-17 22:35:38 2017-11-17 22:35:38,020 [main] INFO  com.auto.Automation  - TestCases:Login with empty username and password
+2017-11-17 22:35:38 2017-11-17 22:35:38,020 [main] INFO  com.auto.Automation  - TestCases:Y
+2017-11-17 22:35:45 2017-11-17 22:35:45,230 [main] INFO  com.auto.Automation  - snoTestSteps:1
+2017-11-17 22:35:45 2017-11-17 22:35:45,231 [main] INFO  com.auto.Automation  - desTestSteps:Open url
+2017-11-17 22:35:45 2017-11-17 22:35:45,231 [main] INFO  com.auto.Automation  - xpathTestSteps:
+2017-11-17 22:35:45 2017-11-17 22:35:45,231 [main] INFO  com.auto.Automation  - value:https://login.live.com
+2017-11-17 22:35:45 2017-11-17 22:35:45,231 [main] INFO  com.auto.Automation  - keywordTestSteps:url
+2017-11-17 22:35:58 2017-11-17 22:35:58,493 [main] INFO  com.auto.CommonFuntionsLib  - Url is opened sucessfully
+2017-11-17 22:35:58 2017-11-17 22:35:58,494 [main] INFO  com.auto.Automation  - snoTestSteps:2
+2017-11-17 22:35:58 2017-11-17 22:35:58,494 [main] INFO  com.auto.Automation  - desTestSteps:Enter empty Username
+2017-11-17 22:35:58 2017-11-17 22:35:58,494 [main] INFO  com.auto.Automation  - xpathTestSteps://input[@id='i0116']
+2017-11-17 22:35:58 2017-11-17 22:35:58,494 [main] INFO  com.auto.Automation  - value:kkkkkkk
+2017-11-17 22:35:58 2017-11-17 22:35:58,494 [main] INFO  com.auto.Automation  - keywordTestSteps:input
+2017-11-17 22:35:58 2017-11-17 22:35:58,664 [main] INFO  com.auto.CommonFuntionsLib  - Input is performed sucessfully
+2017-11-17 22:35:58 2017-11-17 22:35:58,665 [main] INFO  com.auto.Automation  - snoTestSteps:2
+2017-11-17 22:35:58 2017-11-17 22:35:58,665 [main] INFO  com.auto.Automation  - desTestSteps:Sleep 
+2017-11-17 22:35:58 2017-11-17 22:35:58,665 [main] INFO  com.auto.Automation  - xpathTestSteps:
+2017-11-17 22:35:58 2017-11-17 22:35:58,665 [main] INFO  com.auto.Automation  - value:10
+2017-11-17 22:35:58 2017-11-17 22:35:58,665 [main] INFO  com.auto.Automation  - keywordTestSteps:sleep
+2017-11-17 22:36:03 2017-11-17 22:36:03,666 [main] INFO  com.auto.CommonFuntionsLib  - sleep is done sucessfully
+2017-11-17 22:36:03 2017-11-17 22:36:03,666 [main] INFO  com.auto.Automation  - snoTestSteps:3
+2017-11-17 22:36:03 2017-11-17 22:36:03,666 [main] INFO  com.auto.Automation  - desTestSteps:Click on Next Button
+2017-11-17 22:36:03 2017-11-17 22:36:03,667 [main] INFO  com.auto.Automation  - xpathTestSteps://input[@id='idSIButton9']
+2017-11-17 22:36:03 2017-11-17 22:36:03,667 [main] INFO  com.auto.Automation  - value:
+2017-11-17 22:36:03 2017-11-17 22:36:03,667 [main] INFO  com.auto.Automation  - keywordTestSteps:click
+2017-11-17 22:36:03 2017-11-17 22:36:03,964 [main] INFO  com.auto.CommonFuntionsLib  - Click is performed sucessfully
+2017-11-17 22:36:03 2017-11-17 22:36:03,965 [main] INFO  com.auto.Automation  - snoTestSteps:2
+2017-11-17 22:36:03 2017-11-17 22:36:03,965 [main] INFO  com.auto.Automation  - desTestSteps:Sleep 
+2017-11-17 22:36:03 2017-11-17 22:36:03,966 [main] INFO  com.auto.Automation  - xpathTestSteps:
+2017-11-17 22:36:03 2017-11-17 22:36:03,966 [main] INFO  com.auto.Automation  - value:10
+2017-11-17 22:36:03 2017-11-17 22:36:03,966 [main] INFO  com.auto.Automation  - keywordTestSteps:sleep
+2017-11-17 22:36:08 2017-11-17 22:36:08,980 [main] INFO  com.auto.CommonFuntionsLib  - sleep is done sucessfully
+2017-11-17 22:36:08 2017-11-17 22:36:08,980 [main] INFO  com.auto.Automation  - snoTestSteps:4
+2017-11-17 22:36:08 2017-11-17 22:36:08,981 [main] INFO  com.auto.Automation  - desTestSteps:Enter empty Password
+2017-11-17 22:36:08 2017-11-17 22:36:08,981 [main] INFO  com.auto.Automation  - xpathTestSteps://input[@id='i0118']
+2017-11-17 22:36:08 2017-11-17 22:36:08,981 [main] INFO  com.auto.Automation  - value:llllll
+2017-11-17 22:36:08 2017-11-17 22:36:08,981 [main] INFO  com.auto.Automation  - keywordTestSteps:input
+2017-11-17 22:36:09 2017-11-17 22:36:09,053 [main] INFO  com.auto.CommonFuntionsLib  - Input is performed sucessfully
+2017-11-17 22:36:09 2017-11-17 22:36:09,054 [main] INFO  com.auto.Automation  - snoTestSteps:2
+2017-11-17 22:36:09 2017-11-17 22:36:09,054 [main] INFO  com.auto.Automation  - desTestSteps:Sleep 
+2017-11-17 22:36:09 2017-11-17 22:36:09,054 [main] INFO  com.auto.Automation  - xpathTestSteps:
+2017-11-17 22:36:09 2017-11-17 22:36:09,054 [main] INFO  com.auto.Automation  - value:10
+2017-11-17 22:36:09 2017-11-17 22:36:09,054 [main] INFO  com.auto.Automation  - keywordTestSteps:sleep
+2017-11-17 22:36:14 2017-11-17 22:36:14,066 [main] INFO  com.auto.CommonFuntionsLib  - sleep is done sucessfully
+2017-11-17 22:36:14 2017-11-17 22:36:14,067 [main] INFO  com.auto.Automation  - snoTestSteps:5
+2017-11-17 22:36:14 2017-11-17 22:36:14,067 [main] INFO  com.auto.Automation  - desTestSteps:Click Sign in Button
+2017-11-17 22:36:14 2017-11-17 22:36:14,067 [main] INFO  com.auto.Automation  - xpathTestSteps://input[@id='idSIButton9']
+2017-11-17 22:36:14 2017-11-17 22:36:14,067 [main] INFO  com.auto.Automation  - value:
+2017-11-17 22:36:14 2017-11-17 22:36:14,068 [main] INFO  com.auto.Automation  - keywordTestSteps:click
+2017-11-17 22:36:19 2017-11-17 22:36:19,373 [main] INFO  com.auto.CommonFuntionsLib  - Click is performed sucessfully
+2017-11-17 22:36:19 2017-11-17 22:36:19,373 [main] INFO  com.auto.Automation  - snoTestSteps:2
+2017-11-17 22:36:19 2017-11-17 22:36:19,373 [main] INFO  com.auto.Automation  - desTestSteps:Sleep 
+2017-11-17 22:36:19 2017-11-17 22:36:19,373 [main] INFO  com.auto.Automation  - xpathTestSteps:
+2017-11-17 22:36:19 2017-11-17 22:36:19,373 [main] INFO  com.auto.Automation  - value:10
+2017-11-17 22:36:19 2017-11-17 22:36:19,373 [main] INFO  com.auto.Automation  - keywordTestSteps:sleep
+2017-11-17 22:36:24 2017-11-17 22:36:24,376 [main] INFO  com.auto.CommonFuntionsLib  - sleep is done sucessfully
+2017-11-17 22:36:24 2017-11-17 22:36:24,376 [main] INFO  com.auto.Automation  - snoTestSteps:3
+2017-11-17 22:36:24 2017-11-17 22:36:24,377 [main] INFO  com.auto.Automation  - desTestSteps:Close Browser
+2017-11-17 22:36:24 2017-11-17 22:36:24,377 [main] INFO  com.auto.Automation  - xpathTestSteps:
+2017-11-17 22:36:24 2017-11-17 22:36:24,377 [main] INFO  com.auto.Automation  - value:
+2017-11-17 22:36:24 2017-11-17 22:36:24,377 [main] INFO  com.auto.Automation  - keywordTestSteps:CloseBrowser
+2017-11-17 22:36:24 2017-11-17 22:36:24,504 [main] INFO  com.auto.CommonFuntionsLib  - Browser is closed sucessfully
