@@ -16,7 +16,7 @@ public class Driver {
 	
 	public WebDriver InitateDriver()
 	{
-		System.setProperty("webdriver.gecko.driver","E:\\selenium\\geckodriver\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","./geckodriver/geckodriver.exe");
 		  driver=new FirefoxDriver();
 		 // System.setProperty("webdriver.chrome.driver","E:\\selenium\\chromedriver\\chromedriver.exe");
 	       DesiredCapabilities capabilities = DesiredCapabilities.chrome();
