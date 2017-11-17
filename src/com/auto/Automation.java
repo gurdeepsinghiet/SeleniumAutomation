@@ -32,9 +32,9 @@ public class Automation {
 			
 			 String Description=Es.readCell(TestSuitsheet,1, i);
 			 String ExecutionFlag=Es.readCell(TestSuitsheet,2, i);
-			 System.out.println("TestSuit:"+SNo);
-			 System.out.println("TestSuit:"+Description);
-			 System.out.println("TestSuit:"+ExecutionFlag);
+			 logger.info("TestSuit:"+SNo);
+			 logger.info("TestSuit:"+Description);
+			 logger.info("TestSuit:"+ExecutionFlag);
 			
 			 if(ExecutionFlag.equalsIgnoreCase("Y")){
 				 Sheet TestCasesheet= Es1.getWorksheet("./TestCases/TestCase.xls", Description);
@@ -47,10 +47,10 @@ public class Automation {
 					String TestCaseNumber=Es1.readCell(TestCasesheet,1, k);
 					String testcaseDescription=Es1.readCell(TestCasesheet,2, k);
 					String testcaseExecutionFlag=Es1.readCell(TestCasesheet,3, k);
-					 System.out.println("TestCases:"+snoTestCase);
-					 System.out.println("TestCases:"+TestCaseNumber);
-					 System.out.println("TestCases:"+testcaseDescription);
-					 System.out.println("TestCases:"+testcaseExecutionFlag);
+					logger.info("TestCases:"+snoTestCase);
+					logger.info("TestCases:"+TestCaseNumber);
+					logger.info("TestCases:"+testcaseDescription);
+					logger.info("TestCases:"+testcaseExecutionFlag);
 					 
 					
 					if(testcaseExecutionFlag.equalsIgnoreCase("y"))
@@ -69,11 +69,11 @@ public class Automation {
 							String value=Es.readCell(TestStepsheet,4, w);
 							String keywordTestSteps=Es.readCell(TestStepsheet,5, w);
 							if(TestCaseNumber.equalsIgnoreCase(TestStepcaseNumber)){
-							 System.out.println(snoTestSteps);
-							 System.out.println(desTestSteps);
-							 System.out.println(xpathTestSteps);
-							 System.out.println(value);
-							 System.out.println(keywordTestSteps);
+								logger.info("snoTestSteps:"+snoTestSteps);
+								logger.info("desTestSteps:"+desTestSteps);
+								logger.info("xpathTestSteps:"+xpathTestSteps);
+								logger.info("value:"+value);
+								logger.info("keywordTestSteps:"+keywordTestSteps);
 						
 							 comlib.performActions(keywordTestSteps, value, xpathTestSteps);
 							 }
@@ -89,22 +89,7 @@ public class Automation {
 		   Es.closeworkbook();
 		   Es2.closeworkbook();
 		   Es1.closeworkbook();
-		/*  comlib.performActions("url", "https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin", "");
-		// driver.get("https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin");
-		 comlib.performActions("Input", "Gurdeep singhiet", "//input[@id='identifierId']");
-		// driver.findElement(By.xpath("//input[@id='identifierId']")).sendKeys("Gurdeepsinghiet");
-		 comlib.performActions("click", "", "//span[@class='RveJvd snByac']");
-		 //driver.findElement(By.xpath("//span[@class='RveJvd snByac']")).click();
-		 logger.info("automation donr");
-		 
-			try {
-				Thread.sleep(10000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		
-		 driver.quit();*/
+
 	}
 
 }
